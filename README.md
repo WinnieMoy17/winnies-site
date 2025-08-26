@@ -2,6 +2,10 @@
 
 My first personal website! I've added some of my projects, a bit about me and ways to contact me! I've just done the basics and will add other features and changes as I go!
 
+### Check it out!
+
+🌐 Live site: [winnies-site.vercel.app/](https://winnies-site.vercel.app/)
+
 ### Run Locally 🏃‍♀️
 
 Clone the repository:
