@@ -17,7 +17,7 @@ export default function Projects() {
             description: "A property insights platform turning messy property data into clear statistics to guide investors, businesses and home buyers in making their next financial decision.",
             highlight: "Group nominated for the Optiver Prize for SENG3011 Software Engineering Workshop 3 @ UNSW.",
             image: propex_ss,
-            img_width: 650,
+            img_width: 470,
             img_height: 900,
             link: "https://alphas-propex.vercel.app/uploadjson",
             tech: ["python", "react", "AWS", "tailwindcss"],
@@ -30,7 +30,7 @@ export default function Projects() {
             description: "An end to end electronic invoicing platforms aimed to help growing businesses collaborate and streamline the invoicing process.",
             highlight: "Group nominated for the Macquarie Prize, SENG2021 Requirements and  Design Workshop @ UNSW.",
             image: eggsinv_ss,
-            img_width: 650,
+            img_width: 470,
             img_height: 900,
             link: "https://invoice-seng2021-24t1-eggs-frontend.vercel.app/",
             tech: ["typescript", "react", "html/css"],
@@ -43,8 +43,8 @@ export default function Projects() {
             description: "A gamified productivity app engaging users to complete in daily wellbeing challenges, earn points, and share and compete with friends.",
             highlight: "Competed for DevSoc x CSESoc Flagship Hackathon @ UNSW",
             image: beeyou_ss,
-            img_width: 650,
-            img_height: 600,
+            img_width: 480,
+            img_height: 900,
             tech: ["figma ux asset design", "react", "html/css"],
             colour: "#FFD977",
             text_colour: '#FFA100'
@@ -53,28 +53,28 @@ export default function Projects() {
     return (
         <section
             id="projects"
-            className="pt-36 min-h-screen">
+            className="pt-28 min-h-screen">
             <div>
-                <h1 className="text-5xl mb-4">projects</h1>
+                <h1 className="text-4xl mb-4">projects</h1>
                 <hr className="border-black w-full height-3 border-t-[1.5px]"></hr>
-                <div className="mx-20">
+                <div className="mx-14">
                     {projects.map((project, idx) => (
                         <div 
                             key={project.name + idx}
-                            className={`flex justify-between gap-36 py-24 ${idx % 2 === 1 ? "flex-row-reverse" : ""}`}
+                            className={`flex justify-between gap-20 py-20 ${idx % 2 === 1 ? "flex-row-reverse" : ""}`}
                         >
                             <div className="w-1/2">
                                 <div className="flex items-end gap-4">
-                                    <p className={`text-5xl font-black mt-7`} style={{color: hexToRgba(project.text_colour,1)}}>{project.name}</p>
+                                    <p className={`text-4xl font-black mt-7`} style={{color: hexToRgba(project.text_colour,1)}}>{project.name}</p>
                                     <p className="text-2xl">{project.date}</p>
                                 </div>
-                                <p className="text-3xl mt-7">{project.description}</p>
-                                <h2 className="text-3xl font-bold mt-7">{project.highlight}</h2>
-                                <div className="flex gap-6 mt-9">
+                                <p className="text-2xl mt-5">{project.description}</p>
+                                <h2 className="text-2xl font-bold mt-5">{project.highlight}</h2>
+                                <div className="flex gap-6 mt-7">
                                     {project.tech.map((tech) => (
                                         <p 
                                             key={tech}
-                                            className={`text-xl px-6 py-3 rounded-full text-semibold`}
+                                            className={`px-5 py-2 rounded-full text-semibold`}
                                             style={{backgroundColor: hexToRgba(project.colour, 0.3), color: hexToRgba(project.text_colour, 1)}}
                                         >
                                             {tech}
@@ -84,7 +84,7 @@ export default function Projects() {
                             </div>
                             <div className="w-1/2 flex items-center justify-center">
                                 <div 
-                                    className={`h-[500px] w-[800px] rounded-lg flex justify-end items-end overflow-hidden`}
+                                    className={`h-[370px] w-full rounded-lg flex justify-end items-end overflow-hidden`}
                                     style={{backgroundColor: hexToRgba(project.colour, 1)}}
                                 >
                                     <a href={project.link} target="_blank" rel="noopener noreferrer">

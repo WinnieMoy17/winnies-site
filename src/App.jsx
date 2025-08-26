@@ -13,7 +13,7 @@ function App() {
       <div className="fixed top-[-150px] left-[-150px] w-[700px] h-[700px] bg-pink-500 rounded-full filter blur-3xl opacity-10"></div>
       <div className="fixed top-[200px] right-[-200px] w-[500px] h-[500px] bg-yellow-200 rounded-full filter blur-3xl opacity-10"></div>
       <div className="fixed bottom-[-300px] left-[50%] transform -translate-x-1/2 w-[800px] h-[600px] bg-purple-500 rounded-full filter blur-3xl opacity-10"></div>
-      <main className="relative mx-[120px]">
+      <main className="relative mx-[100px]">
         <NavBar />
         <Hero />
         <Projects />
