@@ -1,8 +1,8 @@
-# Winnie's Personal Site!
+# Winnie's Personal Site! 🍵
 
 My first personal website! I've added some of my projects, a bit about me and ways to contact me! I've just done the basics and will add other features and changes as I go!
 
-### Run Locally
+### Run Locally 🏃‍♀️
 
 Clone the repository:
 
@@ -28,13 +28,15 @@ Run the project!
 npm start
 ```
 
-### Tech Stack
+Then it should be slay
+
+### Tech Stack 👾
 
 - HTML + CSS, JavaScript
 - React + Tailwind CSS
 
-### Future Additions
+### Future Additions 🤔
 
-- Responsive Design
-- Add an email API
+- Responsive Design -- want it to work on mobile as well
+- Add an email API -- more seamless emailing
 - Dark Mode?
